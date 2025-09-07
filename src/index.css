@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.react-datepicker__day--highlighted-custom-1 {
+  background-color: #ef4444 !important;
+  color: white !important;
+}
+
+.react-datepicker__day--highlighted-custom-2 {
+  background-color: #eab308 !important;
+  color: white !important;
+}
+
+.react-datepicker__day--highlighted-custom-3 {
+  background-color: #6b7280 !important;
+  color: white !important;
+}
