@@ -20,6 +20,7 @@ import AdminReports from "./components/admin/AdminReports";
 import LanguageAlertModal from "./components/LanguageAlertModal";
 import BookingModal from "./components/BookingModal";
 import PriceListModal from "./components/PriceListModal";
+import WhatsAppButton from "./components/WhatsAppButton";
 import BackgroundImage from "./assets/background.png";
 
 function App() {
@@ -116,6 +117,9 @@ function App() {
                 isOpen={showPriceModal}
                 onClose={handleClosePriceModal}
               />
+              
+              {/* WhatsApp Floating Button */}
+              <WhatsAppButton />
             </div>
           }
         />

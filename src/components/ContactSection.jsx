@@ -25,7 +25,7 @@ const ContactSection = () => {
               rel="noopener noreferrer"
               className="text-green-400 hover:text-green-300"
             >
-              +62 818-7566-121
+              +62 815-2923-0086
             </a>
           </div>
 
